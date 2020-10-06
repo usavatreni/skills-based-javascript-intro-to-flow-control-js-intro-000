@@ -32,7 +32,9 @@ switch (age) {
   case age >=13 && age <=19:
   console.log("You are a teenager");
    break;
-  default: "You have an age";
+   default: 
+     return ("You have an age")
+     break;
 
 }
 }
